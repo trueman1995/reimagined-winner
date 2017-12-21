@@ -1,9 +1,9 @@
 package graph_scala
 
-class vertex(var number: Int) {
+class vertex(number: Int) {
 
-  private var waycost = -1;
-  private var vorgaenger = null;
+  private var waycost = -1
+  private var vorgaenger: vertex = _
 
 
 }
